@@ -1,0 +1,53 @@
+/*GENERAL		*/
+body {
+	background-color: #000000;
+	color: #00ff00;
+	font-family: monospace;
+}
+
+/*EN TETE DE PAGE	*/
+header {
+	text-align: center;
+	padding: 20px;
+}
+
+/*MENU DE NAVIGATION	*/
+nav {
+	background-color: #222222;
+	padding: 10px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav ul li a {
+	color: #00ff00;
+	text-decoration: none;
+	padding: 10px;
+}
+
+nav ul li a:hover {
+	background-color: #00ff00;
+	color: #000000;
+}
+
+/*BLOCK PRINCIPAL	*/
+main {
+	padding: 20px;
+}
+
+/*PIED DE PAGE	*/
+footer {
+	background-color: #222222;
+	padding: 10px;
+	text-align: center;
+	color: #00ff00;
+	font-size: 14px;
+}

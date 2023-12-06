@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<title>InventaireCentral</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="static/css/style.css">
+	</head>
+	
+	<body>
+	
+		<header>
+		
+			<h1>InventaireCentral</h1>
+		</header>
+
+		<nav>
+		
+			<ul>
+				<li><a href="/">Accueil</a></li>
+				<li><a href="/recherche">Recherche</a></li>
+				<li><a href="/ajouter">Ajouter un produit</a></li>
+			</ul>
+		</nav>
+
+		<main>
+			<!-- Contenu dynamique de la page -->
+			{% block content %}
+			
+			{% endblock %}
+		</main>
+
+		<footer>
+		
+			<p>© <span id="currentDate"></span> InventaireCentral. Tous droits réservés.</p>
+		</footer>
+
+		<script src="static/js/script.js"></script>
+	</body>
+</html>
